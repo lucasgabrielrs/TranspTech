@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  outline: 0;
+}
+body{
+  height: 200vh;
+  overflow-x: hidden;
+}
+html{
+  font-size: 62.5%  ;
+}
