@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&display=swap');
+@import url('../../../variables.css');
 
 /* Cores do Header*/
-
-:root {
-    --cor-principal: #FD7E14;
-}
 
 header{
     width: 100%;
@@ -32,7 +29,7 @@ header.visible {
     width: 100%;
     padding: 1.5rem 30rem;
     margin: auto;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-primaria);
 }
 
 .header img {
@@ -46,14 +43,14 @@ header.visible {
 }
 
 .headerItens nav a {
-    color: black;
+    color: var(--cor-logo-nav);
     font-size: 1.5rem;
     padding: 0 10px 0 10px;
     font-family: Inter;
 }
 
 .headerItens button {
-    color: var(--cor-principal);
+    color: var(--cor-primaria);
     font-size: 1.6rem;
     font-family: Inter;
     font-style: italic;
@@ -93,7 +90,7 @@ header.visible {
     .one,
     .two,
     .three {
-        background-color: black;
+        background-color: var(--cor-logo-nav);
         height: 5px;
         width: 100%;
         margin: 6px auto;
@@ -109,7 +106,7 @@ header.visible {
 
     .headerItens.on{
         position: absolute;
-        background-color: var(--cor-principal);
+        background-color: var(--cor-primaria);
         top: 0;
         left: 0;
         width: 100vw;
