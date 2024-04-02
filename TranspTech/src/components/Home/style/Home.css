@@ -44,6 +44,16 @@ p {
     font-size: clamp(1.8rem, 0.3197rem + 1.3115vw, 2.4rem);
 }
 
+.container-buttons {
+    display: flex;
+    gap: 5rem;
+}
+
+.container-buttons button.transparente {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--cor-primaria);
+}
+
 .container button {
     border-radius: 5px;
     background: var(--cor-primaria);
@@ -61,8 +71,8 @@ p {
 
 .container button:hover {
     transform: scale(1.1);
-    background: #FFF;
-    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.40), 0px 4px 4px 0px rgba(255, 255, 255, 0.40);
+    background: #ffffff;
+    box-shadow: 0px 0px 0px 2px;
     cursor: pointer;
     color: var(--cor-primaria);
 }
