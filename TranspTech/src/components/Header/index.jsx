@@ -42,7 +42,7 @@ const Header = () => {
                         </div>
                         <nav>
                             <ul>
-                                <a href="">Sobre Nós</a>
+                                <a href="#aboutus">Sobre Nós</a>
                                 <a href="">O que falam sobre nós</a>
                                 <a href="">Preços</a>
                                 <a href="">Contato</a>
