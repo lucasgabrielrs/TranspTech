@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&display=swap');
 @import url('../../../variables.css');
 
-/* Cores do Header*/
-
-header{
-    width: 100%;
-    transition: top 0.3s
-}
-
 header.visible {
     top: 0;
 }
@@ -15,7 +8,8 @@ header.visible {
 header {
     position: fixed;
     width: 100%;
-    top: -100px; /* Ajuste conforme necessário para esconder completamente o header */
+    top: -100px;
+    transition: top 0.3s;
 }
 
 header.visible {
@@ -26,14 +20,16 @@ header.visible {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    padding: 1.5rem 30rem;
+    padding: 1.5rem 10rem;
+    width: 70%;
     margin: auto;
     background-color: var(--cor-primaria);
+    border-radius: 0 0 10px 10px;
 }
 
 .header img {
-    width: 6%;
+    width: 7%;
+    margin-right: auto;
 }
 
 .headerItens {
@@ -63,23 +59,29 @@ header.visible {
 /* RESPONSIVIDADE */
 @media (max-width:1024px) {
     .header {
-        padding: 1.5rem 10rem;
+        padding: 1rem 2rem;
+    }
+
+    .headerItens nav a{
+        font-size: 1.2rem;;
     }
     
     .header img {
-        width: 6%;
+        width: 11%;
     }
 }
 
 @media (max-width:768px) {
-    .header img {
-        width: 9%;
+    .header {
+        width: 100%;
     }
 }
 
 @media (max-width:468px) {
+    
     .header {
         padding: 1.5rem 2rem;
+        border-radius: 0;
     }
     .header img {
         width: 20%;

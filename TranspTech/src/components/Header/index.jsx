@@ -33,7 +33,7 @@ const Header = () => {
         <>
              <header className={`${isVisible ? 'visible' : ''}`}>
                 <div className="header">
-                    <img src="public\image\LogoTransptech.png" alt="Logo da empresa" />
+                    <img src="../../public/image/LogoTransptech.png" alt="Logo da empresa" />
                     <div  className={`headerItens ${menuOpen ? 'on' : ''}`}>
                         <div onClick={toggleMenu} className="menuBurger">
                             <div className='one'></div>
