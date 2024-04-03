@@ -75,10 +75,6 @@ section.testimonial {
 
 @media (max-width:468px) {
 
-    section.testimonial {
-        height: 85vh;
-    }
-
     .container-testimonial p {
         font-size: clamp(1.8rem, 0.3197rem + 1.3115vw, 3rem);
         margin-top: 4rem;
