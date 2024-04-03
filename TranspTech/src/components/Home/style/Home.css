@@ -98,7 +98,11 @@ p {
     }
 
     .container p {
-        font-size: clamp(1.5rem, 0.3197rem + 1.3115vw, 2.4rem);
+        font-size: clamp(1.4rem, 0.3197rem + 1.3115vw, 2.1rem);
     }
-
+    
+    .container-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }

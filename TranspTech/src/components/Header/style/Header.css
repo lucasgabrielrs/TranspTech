@@ -39,7 +39,7 @@ header.visible {
 }
 
 .headerItens nav a {
-    color: var(--cor-logo-nav);
+    color: var(--cor-nav-itens);
     font-size: 1.5rem;
     padding: 0 10px 0 10px;
     font-family: Inter;
