@@ -76,8 +76,7 @@ section.testimonial {
 @media (max-width:468px) {
 
     section.testimonial {
-        height: 90vh;
-        width: 100vw;
+        height: 85vh;
     }
 
     .container-testimonial p {
