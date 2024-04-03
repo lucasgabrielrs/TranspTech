@@ -1,0 +1,117 @@
+@import url('../../../variables.css');
+
+section.testimonial {
+    margin: 15px 0 0 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url(../../../../public/image/testimonialPreto.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-testimonial {
+   width: 70%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.container-testimonial img {
+    width: 20%;
+    display: flex;
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 0;
+}
+
+.container-testimonial p {
+    color: #fff;
+    font-size: clamp(4rem, 0.3197rem + 1.3115vw, 3rem);
+    margin-top: 10rem;
+}
+
+.avatar p {
+    font-size: clamp(2rem, 0.3197rem + 1.3115vw, 3rem);
+    text-align: left;
+    justify-content: center;
+}
+
+.avatar span{
+    font-weight: bold;
+}
+
+@media (max-width:1440px) {
+    .container-testimonial p {
+        font-size: clamp(3rem, 0.3197rem + 1.3115vw, 3rem);
+        margin-top: 5rem;
+    }
+
+    .avatar p {
+        font-size: clamp(2rem, 0.3197rem + 1.3115vw, 3rem);
+    }
+}
+
+@media (max-width:1024px) {
+    .container-testimonial p {
+        font-size: clamp(2.5rem, 0.3197rem + 1.3115vw, 3rem);
+    }
+
+    .avatar p {
+        font-size: clamp(2rem, 0.3197rem + 1.3115vw, 3rem);
+    }
+}
+
+@media (max-width:768px) {
+    .container-testimonial p {
+        font-size: clamp(2.4rem, 0.3197rem + 1.3115vw, 3rem);
+    }
+    .avatar p {
+        font-size: clamp(2rem, 0.3197rem + 1.3115vw, 3rem);
+    }
+}
+
+@media (max-width:468px) {
+    .container-testimonial p {
+        font-size: clamp(1.8rem, 0.3197rem + 1.3115vw, 3rem);
+        margin-top: 4rem;
+    }
+
+    .container-testimonial img {
+        width: 35%;
+    }
+
+    .container-testimonial {
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:375px) {
+    .container-testimonial p {
+        font-size: clamp(1.7rem, 0.3197rem + 1.3115vw, 3rem);
+        margin-top: 4rem;
+    }
+
+    .container-testimonial img {
+        width: 40%;
+    }
+
+    .avatar p {
+        font-size: clamp(1.5rem, 0.3197rem + 1.3115vw, 3rem);
+    }
+}
+
+@media (max-width:320px) {
+    .container-testimonial p {
+        font-size: clamp(1.6rem, 0.3197rem + 1.3115vw, 3rem);
+        margin-top: 3rem;
+    }
+
+    /* Só por enquanto pq a foto do aboutus tava desgrudando dela*/
+    section.testimonial {
+        margin-top: -3rem;
+    }
+}
+
